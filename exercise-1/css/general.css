@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	background-color:#320318;
+}
+
+blockquote {
+	background-color:#941751;
+	color:#FFF;
+	padding:2em 3.75em;
+	width:40%;	
+	border-radius:1em;
+	box-shadow:0 1px 3px black;
+	margin:40px auto 0;
+	position:relative;
+}
+
+.openquote {
+	position:absolute;
+	color:#b82d5d;
+	font-size:5em;
+	font-weight:bold;
+	font-family:Arial;
+	top:0.3em;
+	left:0.15em;
+}
+
+.closequote {
+	position:absolute;
+	color:#b82d5d;
+	font-size:5em;
+	font-weight:bold;
+	font-family:Arial;
+	bottom:0em;
+	right:0.15em;
+}
+
+p {
+	font-family:Georgia;
+}
+
+cite {
+	font-family:Arial;
+	font-style:normal;
+	text-align:right;
+	display:block;
+	color:#f4a3c0;
+}
+
